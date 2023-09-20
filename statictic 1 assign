@@ -1,0 +1,234 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "fc910a21-80fa-480a-a307-6dfeb377fae4",
+   "metadata": {},
+   "source": [
+    "Q1. What is Statistics?"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "0e7b8529-aae9-4e27-b1e6-1482edd01ba1",
+   "metadata": {},
+   "source": [
+    "statistic is the science of collecting, organizing, & analysing data"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "e6a85722-e363-4403-aba6-592f7e2dc111",
+   "metadata": {},
+   "source": [
+    "Q2. Define the different types of statistics and give an example of when each type might be used."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "bfe8b7ff-6bb2-44ff-a6ce-da6db4234159",
+   "metadata": {},
+   "source": [
+    "Descriptive Statistics:\n",
+    "Definition: Descriptive statistics involve methods of organizing, summarizing, and presenting data in a meaningful way. They provide a clear and concise overview of the characteristics of a dataset.\n",
+    "Examples:\n",
+    "Measures of Central Tendency: Mean, median, mode. For example, calculating the average score of students in a class.\n",
+    "Measures of Dispersion: Range, variance, standard deviation. For example, determining the spread of ages in a population.\n",
+    "Frequency Distributions: Creating tables or graphs to display the frequency of different outcomes or categories in a dataset.\n",
+    "Percentiles: Dividing data into hundred equal parts to analyze its distribution. For instance, understanding income distribution by calculating the 25th, 50th (median), and 75th percentiles.\n",
+    "Inferential Statistics:\n",
+    "Definition: Inferential statistics involve making inferences or predictions about a population based on a sample of data. These techniques are used to draw conclusions or make generalizations beyond the observed data.\n",
+    "Examples:\n",
+    "Hypothesis Testing: Testing a specific hypothesis about a population parameter. For instance, determining if a new drug is effective in treating a specific condition.\n",
+    "Confidence Intervals: Estimating a range of values within which a population parameter is likely to fall. For example, estimating the average height of all adult males in a country.\n",
+    "Regression Analysis: Examining the relationship between one or more independent variables and a dependent variable. This can be used to make predictions. For example, predicting a person's salary based on their education level and years of experience.\n",
+    "ANOVA (Analysis of Variance): Comparing means across multiple groups to determine if there are significant differences. For example, testing if different teaching methods lead to significantly different test scores.\n",
+    "Example Scenario:\n",
+    "Suppose a researcher is conducting a study on the effects of a new teaching method on student performance in different schools. They might use both descriptive and inferential statistics:\n",
+    "\n",
+    "Descriptive Statistics: The researcher would use measures of central tendency (mean, median) to summarize the average performance of students in each group. They might also use measures of dispersion (standard deviation) to understand the variability in scores.\n",
+    "\n",
+    "Inferential Statistics: The researcher could use hypothesis testing to determine if there is a significant difference in performance between the groups. They might also use regression analysis to identify factors (like teacher experience, school size, etc.) that significantly affect student performance.\n",
+    "\n",
+    "By using both types of statistics, the researcher can provide a comprehensive analysis of the study's findings.\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "527d98a8-42e9-4bc4-b4bb-66f6077210d2",
+   "metadata": {},
+   "source": [
+    "Q4. Categorise the following datasets with respect to quantitative and qualitative data types:\n",
+    "(i) Grading in exam: A+, A, B+, B, C+, C, D, E\n",
+    "(ii) Colour of mangoes: yellow, green, orange, red\n",
+    "(iii) Height data of a class: [178.9, 179, 179.5, 176, 177.2, 178.3, 175.8,...]\n",
+    "(iv) Number of mangoes exported by a farm: [500, 600, 478, 672, ...]"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "70f9b2ed-0770-4553-9ab0-ea01f17b89a8",
+   "metadata": {},
+   "source": [
+    "(i)qualitative\n",
+    "(ii) qualitative\n",
+    "(iii) quantitative\n",
+    "(iv) quantitative"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "749caddd-64d3-4581-b299-530670ce39bf",
+   "metadata": {},
+   "source": [
+    "Q5. Explain the concept of levels of measurement and give an example of a variable for each level."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "293817b0-dbb7-4eb8-8885-8801182bca7a",
+   "metadata": {},
+   "source": [
+    "sclale of mesureemnet are of 4 types:\n",
+    "    (i) nominal scale data: qualitative/categorical\n",
+    "    eg: gender,colour,labels\n",
+    "    (ii) ordinal sclae data:\n",
+    "        ranking is important\n",
+    "        order matter \n",
+    "        diif can't be measured\n",
+    "        eg: race ranking\n",
+    "    (iii) internal sclae data: \n",
+    "        the order matters\n",
+    "        ratio can't be measured \n",
+    "        no true \"o\" strating point\n",
+    "        eg: temp. variable\n",
+    "    (iv) ratio scale data:\n",
+    "        diff are measurable\n",
+    "        contain a \"o\" statrting point\n",
+    "        eg: student marks in class"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "c29f6b88-30f9-41c0-83b4-f8f64a381fd1",
+   "metadata": {},
+   "source": [
+    "Q6. Why is it important to understand the level of measurement when analyzing data? Provide an\n",
+    "example to illustrate your answer."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "324078db-b723-408d-9545-9f36c8d1b25e",
+   "metadata": {},
+   "source": [
+    "Choosing Appropriate Statistical Tests: Different levels of measurement require different types of statistical tests. For example:\n",
+    "\n",
+    "Nominal Data: This is categorical data without any inherent order. When working with nominal data, you would use tests like Chi-square tests, which assess relationships between categorical variables.\n",
+    "Ordinal Data: This data has categories with a meaningful order, but the intervals between them are not uniform. When dealing with ordinal data, non-parametric tests like the Mann-Whitney U test or Kruskal-Wallis test may be more appropriate than parametric tests.\n",
+    "Interval and Ratio Data: These types of data allow for more advanced statistical analyses, including parametric tests like t-tests, ANOVA, and regression analysis.\n",
+    "Interpreting Descriptive Statistics: The choice of descriptive statistics (e.g., mean, median, mode) can be affected by the level of measurement. For example, using the mean to describe ordinal data can be misleading because it implies a level of precision that may not be justified.\n",
+    "\n",
+    "Determining the Range of Possible Values: The level of measurement informs us about the range of values that a variable can take. For example, nominal data can only take on distinct categories, whereas ratio data has a true zero point and allows for meaningful comparisons of intervals.\n",
+    "\n",
+    "Ensuring Data Compatibility: When combining or comparing variables, it's important to ensure they are of compatible levels of measurement. For instance, it wouldn't make sense to average nominal data."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "0a8f8782-11f3-4d3a-9c88-34b491d5f3a4",
+   "metadata": {},
+   "source": [
+    "Q7. How nominal data type is different from ordinal data type."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "59e81f9e-3448-45e1-a197-08a61a44f3b1",
+   "metadata": {},
+   "source": [
+    "in nominal order doesn't matter but in ordinal order matters"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f8989edd-f72e-4555-b391-a7949050362e",
+   "metadata": {},
+   "source": [
+    "Q8. Which type of plot can be used to display data in terms of range?"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b970cd33-2c3e-4a1d-b200-78941e8e804f",
+   "metadata": {},
+   "source": [
+    " box plot (also known as a whisker plot) is a type of plot that is commonly used to display data in terms of range. It provides a visual summary of the distribution of a dataset, including measures of central tendency and spread."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a4753f5a-63dd-4e2d-bcf4-67789f151bc5",
+   "metadata": {},
+   "source": [
+    "Q9. Describe the difference between descriptive and inferential statistics. Give an example of each\n",
+    "type of statistics and explain how they are used."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "5f128bb9-0019-4922-95c7-c79ebad084be",
+   "metadata": {},
+   "source": [
+    "descriptive statistics : it consist of organizing & summarizing data\n",
+    "inferential statistics: it consist of using data you have measured to form conclusion\n",
+    " eg: height of student in class h = (122,145,178,156,179)\n",
+    "    descriptive Q \"what is the avg. heigt of the class\"\n",
+    "    inferential Q \" are the height of the student similar to what you have expexted in the entire collage\""
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "458a5907-9027-4cb4-a115-825060895600",
+   "metadata": {},
+   "source": [
+    "Q10. What are some common measures of central tendency and variability used in statistics? Explain\n",
+    "how each measure can be used to describe a dataset."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4cb10fc5-3c98-4815-8cdf-068369a06aa5",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
